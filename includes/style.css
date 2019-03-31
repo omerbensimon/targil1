@@ -22,7 +22,7 @@ header, nav, main, section, footer, div {
     display: block;
 }
 #logo a{
-    background-image: url(../images/lotus.png); 
+    background-image: url(../images/logo.png); 
     background-repeat: no-repeat;  
     background-size: contain;
     display: block;
@@ -116,6 +116,7 @@ p{
     position: relative;
     right: 315px;
     top: 99px;
+    box-shadow: 30px 80px 180px rgba(0, 0, 0, 0.25);
 }
 footer {
     background: #515151;
