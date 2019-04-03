@@ -46,6 +46,7 @@ header, nav, main, section, footer, div {
     opacity: 0.3;
     padding-right: 24px;
     color: #222222; 
+    text-transform: uppercase;
 }
 #main_nav a:hover{
     color: #1434E1;
@@ -85,14 +86,17 @@ p{
     /* Black */
     opacity: 0.7;
 }
+
 .info h1{
     padding-top: 60px;
     padding-bottom: 8px;
 }
 .info li span{
     height: 16px;
+    padding-left: 29px;
 }
 .info li{
+    text-transform: uppercase;
     list-style: none;
     font-weight: 500;
     font-size: 14px;
@@ -102,11 +106,12 @@ p{
     padding-bottom: 30px;
 }
 .info img{
+    background: #E5E5E5;
+    border-radius: 34px;
+    padding:19px;
     vertical-align: middle;
-    padding-right: 29px;
-    width: 54px;
-    height: 54px;
 }
+
 .more_img{
     padding-bottom: 58px;
     height: 552px;
