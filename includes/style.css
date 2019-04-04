@@ -47,6 +47,10 @@ header, nav, main, section, footer, div {
     padding-right: 24px;
     color: #222222; 
     text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;
 }
 #main_nav a:hover{
     color: #1434E1;
@@ -68,14 +72,8 @@ h1{
 }
 .cover h1{
     height: 48px;
-}
-.info h1{
-    height: 53px;
-}
-.cover h1{
     padding-top: 40px;
 }
-
 p{
     padding-top: 8px;
     font-weight: normal;
@@ -90,6 +88,7 @@ p{
 .info h1{
     padding-top: 60px;
     padding-bottom: 8px;
+    height: 53px;
 }
 .info li span{
     height: 16px;
@@ -106,9 +105,6 @@ p{
     padding-bottom: 30px;
 }
 .info img{
-    background: #E5E5E5;
-    border-radius: 34px;
-    padding:19px;
     vertical-align: middle;
 }
 
