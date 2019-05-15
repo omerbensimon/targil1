@@ -1,0 +1,346 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+#layout1 main {
+    width: 881px; /* according to design's width*/
+    margin: 0px auto;
+} 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+body{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+}
+main, nav, article, span, aside, section, header,footer { 
+    display: block;
+}
+nav a{
+    padding-right: 18px;
+}
+nav a:hover{
+    color: #1434E1;
+    opacity: 1;
+}
+ nav {  
+    width: 309px;
+    height: 51px;
+    margin: 50px auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: normal;
+}
+ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+}
+.circle{
+    border-radius: 50px;
+    background: #F72828;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 34px;
+}
+#layout1 .circle{
+    margin-left: 16px;
+}
+.boxes div{
+    position: absolute;
+    background-color: #ebef18
+}
+header {
+    padding-top: 2px;
+    width: 100%;
+    height: 123px;
+    background-color: #F2E9E9; 
+    position: relative;
+}
+#layout1 .text h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: normal;
+    color: #000000;
+}
+#layout1 .text h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
+    color: #000000;
+}
+footer {
+    width:100%;
+    height:41px;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0px;
+}
+#layout1 footer {
+    position: relative;
+}
+#layout1 main{
+    width: 881px;
+    height: 769px;
+    margin: 0 auto;
+    padding-top: 91px;
+}
+#layout1 .text{
+    float: left;
+    width: 50%;
+    height: 120px;
+    position: relative;
+    top: 176px;
+}
+#layout1 .boxes{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    float: left;
+    width: 50%;
+    height: 624px;
+    left: 70px;
+}
+#layout1 .box1{
+    top: 44px;
+    left: 0px;
+    width: 75px;
+    height: 23px;
+}
+#layout1 .box2{
+    top: 75px;
+    left: 0px;
+    width: 136px;
+    height: 46px;
+}
+#layout1 .box3{
+    top: 132px;
+    left: 0px;
+    width: 134px;
+    height: 404px;
+}
+#layout1 .box4{
+    top: 547px;
+    left: 0px;
+    width: 88px;
+    height: 28px;
+}
+#layout1 .box5{
+    top: 582px;
+    left: 0px;
+    width: 25px;
+    height: 26px;
+}
+#layout1 .box6{
+    top: 582px;
+    left: 32px;
+    width: 25px;
+    height: 26px;
+}
+#layout1 .box7{
+    top: 44px;
+    left: 149px;
+    width: 246px;
+    height: 352px;
+}
+#layout1 .box8{
+    top: 412px;
+    left: 149px;
+    width: 123px;
+    height: 212px;
+}
+#layout1 .box9{
+    top: 412px;
+    left: 286px;
+    width: 55px;
+    height: 105px;
+}
+#layout1 .box10{
+    top: 412px;
+    left: 382px;
+    width: 55px;
+    height: 105px;
+}
+#layout1 .box11{
+    top: 524px;
+    left: 286px;
+    width: 110px;
+    height: 58px;
+}
+#layout1 .box12{
+    top: 0px;
+    left: 409px;
+    width: 28px;
+    height: 55px;
+}
+#layout1 .box13{
+    top: 66px;
+    left: 409px;
+    width: 28px;
+    height: 55px;
+}
+#layout1 .box14{
+    top: 132px;
+    left: 409px;
+    width: 28px;
+    height: 55px;
+}
+#layout1 .box15{
+    top: 198px;
+    left: 409px;
+    width: 28px;
+    height: 198px;
+}
+/* -------------------layout 2------------------------ */
+
+#layout2 .square{
+    width: 969px; /* according to design's width*/
+    margin: 49px 151px 1860px;/*the distance between the nav and the .square is 119, the .square's top margin is 70 so the diffrence is 49 */
+}
+.clear{
+    clear: both;
+}
+#layout2 aside{
+    margin-top: 0px;
+    width: 169px;
+    height: 1884px; 
+    float: right;
+    background-color: #EBEF18;
+    position: relative;
+}
+#layout2 aside article{
+    top: 119px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+#layout2 .box17{
+    top: 247px;
+    left: 89px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #000000;
+}
+#layout2 .box18{
+    top: 616px;
+}
+#layout2 aside ul{
+    position: absolute;
+    left: 44px;
+    bottom: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: normal;
+    text-align: center;
+}
+.square article{
+    background-color: #C4C4C4; 
+    width: 457px;
+    height: 299px; 
+    position: relative;
+}
+.square .first{
+    margin-top: 238px;
+    float: right;
+}
+.square .right{
+    margin-top: 70px;
+    float: right;
+}
+.square .right_last{
+    height: 97px; 
+}
+.square .left{
+    margin-top: 70px;
+    float: left;
+}
+.square .left_last{
+    height: 265px; 
+}
+#layout2 .circle{
+    margin-left: 41px;
+}
+/* -----------layout 3----------------------- */
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+@media (min-width: 851px){/*desktop*/
+    .left_side{
+        min-height: 100vh;
+        background-color: #E5E5E5;
+        padding-top: 1px;
+    }
+    #layout3 nav{
+        margin: 123px 0px 839px 38px;
+    }
+    #layout3 .circle{
+        margin-left: 84px;
+        top: 228px;
+    }
+    #layout3 aside{
+        background-color: rgba(24, 239, 33, 0.3);
+        padding-top: 1px;
+        width: 10vw;
+        min-height: 100vh;
+        float: right;
+    }
+    .bottom_part{
+        background-color: #EBEF18;
+        width: 100%;
+        height: 463px;
+        float: left;
+
+    }
+    .flex-container > .boxes_in_main{
+        width: 67vw;
+    }
+    .flex-container{
+        display: flex;
+    }
+
+}
+@media (max-width: 850px){
+    .left_side{
+        background-color: #E5E5E5;
+        padding-top: 1px;
+        min-height: 105px;
+    } 
+    #layout3 nav a:hover{
+        color: #1434E1;
+        opacity: 1;
+    }
+    #layout3 .circle{
+        margin-left: 84px;
+        top: -15px;
+    } 
+    #layout3 nav{
+        /* display: flex;
+        height: 0px;
+        margin: 0px; */
+
+    }
+    #layout3 ul{
+        position: absolute;
+        /* top: 56%;
+        left: 30%; */
+    }
+    .bottom_part{
+        background-color: #EBEF18;
+        width: 100%;
+        height: 463px;
+    }
+    .flex-container > .boxes_in_main{
+        min-height: 100vh;
+    }
+}
