@@ -4,8 +4,6 @@ var counter=0
 var result=['','',''];
 var temp=0;
 var first=0;
-var odd=0;
-var even=0;
 var i=0;
 var flag=0;
 var tmpLtter;
@@ -23,8 +21,7 @@ function createBoxes(){
         first=0;
     }
     temp=boxCounter%2;
-    if(temp==0){
-        odd=1;
+    if(temp==0){//odd
         result[i]=letters[first];
         i+=1;
         result[i]=letters[first];
@@ -42,8 +39,7 @@ function createBoxes(){
         i=0;
         first+=2;
     }
-    else{
-        even=1;
+    else{//even
         result[i]=letters[first-1];
         i+=1;
         result[i]=letters[first];
