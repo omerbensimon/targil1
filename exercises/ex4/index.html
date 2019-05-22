@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>James Bond - The Real Deal</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="includes/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" async></script>
+        <meta charset="utf-8">
+        <link rel = "icon" href ="images/007logo.jpg" type = "image/x-icon">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" async></script>
+    </head>
+  <body class="form-v5">
+        <div class="page-content">
+            <div class="form-v5-content">
+                <form class="form-detail" action="http://html5-book.co.il/teach/forms/get_form2.php" method="get" autocomplete="on">
+                    <h2>Application For James Bond Position</h2><h6>(00 Agents Only)</h6>
+                    <div class="form-row">
+                        <label for="full-name">Code name</label>
+                        <input type="text" name="fullName" class="input-text" placeholder="007" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-row">
+                        <label for= "pass">Password</label>
+                        <input type="password" name="pass" class="input-text" required placeholder="Password" minlength="8">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-row">
+                        <label for="your-email">Fictive work Email</label>
+                        <input type="email" name="mail" class="input-text" required placeholder="bond@universal.com">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-row">
+                        <label for="website">Current job site</label>
+                        <input type="url" name="website" class="input-text" required placeholder="https://bond-james-bond/URL">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">Fake phone number</label>
+                        <input type="tel" name="phone" class="input-text" minlength="10" required placeholder="123-4567890" title="A phone must be a number with 10 digits in your country">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-row">
+                        <label for="coffee">Killing amount</label>
+                        <input type="range" name="coffee" class="_range" min="0" max="10000000">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-row">
+                        <label for="temper">What is your average drinking habbit per week?</label>
+                    </div>
+                    <div class="form-row">   
+                        <input type="number" name="temper" class="_range row_size" maxlength="100" required placeholder="32">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-row">
+                        <label for="address">A sentence that represents yourselfe</label>
+                        <input type="text" name="address" class="input-text" required placeholder="Shaken, not stirred">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-row">
+                        <label for="interests[]">What are your skills?</label>
+                    </div>
+                    <div class="form-row">
+                        <label class="font_change">Water ski and Water sports in general <input class="check" type="checkbox" name="interests[]" value="Water ski and Water sports in general"></label>
+                        <label class="font_change">Golf <input class="check" type="checkbox" name="interests[]" value="Golf"></label>
+                        <label class="font_change">Gun expert. Specializes in Beretta 418 <input class="check" type="checkbox" name="interests[]" value="Gun expert. Specializes in Beretta 418"></label>
+                        <label class="font_change">Running for your life in style <input class="check" type="checkbox" name="interests[]" value="Running for your life in style" checked></label>
+                    </div>
+                    <div class="form-row">
+                        <label for="gender">Score your emotional intelligence</label>
+                    </div>
+                    <div class="form-row">
+                        <label class="font_change">Non existing <input class="check" type="radio" name="gender" value="female" checked></label>
+                        <label class="font_change">Poor <input class="check" type="radio" name="gender" value="male"></label>
+                        <label class="font_change">Sometimes i'm nice <input class="check" type="radio" name="gender" value="male"></label>
+                        <label class="font_change">I'll do anything for my friends <input class="check" type="radio" name="gender" value="male"></label>
+                    </div>
+                    <div class="form-row">
+                        <label for="age">How many shots have you survived?</label>
+                    </div>
+                    <div class="form-row">
+                        <label class="font_change">
+                            <input type="text" list="langs" name="age" class="input-text">
+                            <datalist id="langs">
+                            <option value="1" label="1-10"></option>
+                            <option value="2" label="10-100"></option>
+                            <option value="3" label="100-1000"></option>
+                            <option value="4" label="1000-100000"></option>
+                            </datalist>
+                        </label>
+                    </div>
+                    <label class="form-row-last"><input type="image" src="images/007logo.jpg"></label>
+                </form> 
+            </div>
+        </div>    
+        <audio controls autoplay>
+            <source src="includes/James Bond Theme Tune.mp3" type="audio/mpeg">
+        </audio>
+    </body>
+</html>

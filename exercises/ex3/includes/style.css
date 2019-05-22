@@ -308,6 +308,9 @@ footer {
         display: flex;
     }
 }
+.tmp{
+    margin: 123px 64px;
+}
 @media (max-width: 850px){
     .left_side{
         background-color: #E5E5E5;
@@ -320,10 +323,16 @@ footer {
     }
     #layout3 .circle{
         margin-left: 84px;
-        top: -15px;
+        top: 0px;
     } 
     #layout3 ul{
         position: absolute;
+        padding-top: 19px;
+    }
+    #layout3 nav{
+        width: 231px;
+        margin: 26px auto;
+        
     }
     .bottom_part{
         background-color: #EBEF18;
@@ -332,5 +341,8 @@ footer {
     }
     .flex-container > .boxes_in_main{
         min-height: 100vh;
+    }
+    .tmp{
+        margin: 0px 64px;
     }
 }
