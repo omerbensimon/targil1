@@ -13,7 +13,7 @@ body {
 }
 .page-content {
 	width: 100%;
-	margin:  0 auto;
+	margin: 0 auto;
 	background: black;
 	background: url(../../ex4/images/007.svg);
 	background-repeat: no-repeat;
@@ -75,7 +75,7 @@ body {
 .form-detail .form-row {
 	position: relative;
 	font-weight: 600;
-	color: #707c04c0;
+	color: red;
 }
 .form-detail .form-row-last{
 	text-align: center;
@@ -130,9 +130,6 @@ body {
 	margin: 19px 0 40px;
 	cursor: pointer;
 }
-.form-detail .register:hover {
-	background: #2f73a3;
-}
 .form-detail .form-row-last input {
 	padding: 14px;
 	width: 150px;
@@ -182,14 +179,14 @@ audio{
 }
 .form-row .font_change{
 	font-weight: 200;
-	padding-right: 20px;
+	padding-right: 210px;
 	color: #24212169;
 }
 .form-row .row_size{
 	width: 150px;
 }
 .form-detail h2:hover{
-	color: #3786bd;
+	color: red;
 }
 audio{
   display: none;
